@@ -1,5 +1,5 @@
-import { getLocalStorage, setLocalStorage } from "./localStorage.js.js"
-import { generateRandomID } from "./utils.js.js"
+import { getLocalStorage, setLocalStorage } from "../js/localStorage.js"
+import { generateRandomID } from "../js/utils.js"
 
 const getUID = (presentIDs) => {
    let genUID = generateRandomID()
