@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node run.js",
-    "dev": "concurrently \"npm start dev\" \"live-server dist\"",
+    "start": "npm run dev",
+    "dev": "npm run build && concurrently \"node run.js dev\" \"live-server dist\"",
     "build": "node run.js build",
     "deploy": "cd utils && node gh-pages.js",
     "sass": "node-sass --watch src/scss -o dist/css --output-style compressed"
