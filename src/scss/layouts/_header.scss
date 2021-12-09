@@ -40,11 +40,39 @@
             border-radius: 50%;
             padding: 1rem;
             cursor: pointer;
+            transition: all 0.2s;
+
+            &::after {
+               content: "";
+               position: absolute;
+               top: 57%;
+               right: 19%;
+               border-width: 10px;
+               border-style: solid;
+               z-index: -1;
+               transform: translate(2.5rem, -50%);
+               border-color: transparent #555 transparent transparent;
+               transition: all .2s;
+            }
 
             &:hover {
                background-color: var(--color-dark-2);
             }
+
+            &:hover {
+               &::after {
+                  z-index: 1;
+                  transform: translate(0, -50%);
+               }
+            }
          }
       }
+   }
+}
+
+@media screen and (max-width: 576px) {
+   .header {
+      position: fixed;
+      height: 14rem;
    }
 }

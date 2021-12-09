@@ -128,27 +128,21 @@
    }
 }
 
+
+
 @media screen and (max-width: 576px) {
 
     body {
         overflow: scroll;
     }
 
-   #app {
-       margin: 0;
-    //   padding: 0;
-    //   max-height: auto;
-    //   height: 100vh;
-      width: 100%;
-   }
-   
-   .header {
-       position: fixed;
-   }
-
    .task-list {
       max-height: none;
-      height: 100%;
+      height: calc( 100% - 1rem);
+   }
+
+   .add-task {
+       position: fixed;
    }
 
 }
