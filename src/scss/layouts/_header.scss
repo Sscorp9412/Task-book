@@ -53,6 +53,7 @@
                transform: translate(2.5rem, -50%);
                border-color: transparent #555 transparent transparent;
                transition: all .2s;
+               display: none;
             }
 
             &:hover {
