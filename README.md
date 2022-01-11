@@ -9,13 +9,16 @@ It is a vanillaJS project which generates plain html code every time we compile 
   <li>HTML</li>
   <li>Sass</li>
   <li>Javascript</li>
+  <li>Redux</li>
 </ul>
 
 How to Use
 
 ## git clone <github url>
-## cd task-book
-## npm install
-## npm start
+<ul>
+  <li>cd task-book</li>
+  <li>npm install</li>
+  <li>npm start</li>
+</ul>
 
 Have a Nice Day.
