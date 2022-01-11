@@ -12,10 +12,10 @@ It is a vanillaJS project which generates plain html code every time we compile 
   <li>Redux</li>
 </ul>
 
-How to Use
+##How to Use
 
-## git clone <github url>
 <ul>
+  <li>git clone <github url></li>
   <li>cd task-book</li>
   <li>npm install</li>
   <li>npm start</li>
