@@ -12,7 +12,7 @@ It is a vanillaJS project which generates plain html code every time we compile 
   <li>Redux</li>
 </ul>
 
-##How to Use
+## How to Use
 
 <ul>
   <li>git clone <github url></li>
